@@ -1,0 +1,13 @@
+{
+  "name": "@superinstance/a2a-protocol",
+  "version": "1.0.0",
+  "description": "A2A: Agent-to-agent protocol with Cloudflare Workers reference implementation",
+  "main": "src/worker.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "tsc --noEmit && echo 'TypeScript: OK'"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
